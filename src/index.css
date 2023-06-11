@@ -1,0 +1,32 @@
+body {
+    background-color: bisque;
+}
+th {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #365c54;
+    box-shadow: 20px 20px 50px 10px grey inset;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.m-t-50 {
+    margin-top: 50px;
+}
+.btn-primary {
+    background-color: brown;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    color: white;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
